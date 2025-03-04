@@ -65,7 +65,7 @@ python main.py
 
 ---
 
-## 🖼️ Screenshots
+<!--## 🖼️ Screenshots
 ### 🎯 Main Screen
 ![Main Screen](https://user-images.githubusercontent.com/37211676/58502148-97ec2a00-81a3-11e9-963e-674b9c3e05dc.png)
 
@@ -75,7 +75,7 @@ python main.py
 ### 🔐 Password Protection
 ![Change Password](https://user-images.githubusercontent.com/37211676/58502146-97539380-81a3-11e9-8536-0c68160ecc55.png)
 
----
+----->
 
 ## 🔮 Future Improvements
 🚀 **Upgrade to Database Storage** – Implement MySQL or SQLite instead of CSV.  
