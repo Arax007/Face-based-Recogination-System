@@ -1,35 +1,96 @@
-# Face_recognition_based_attendance_system
-A python GUI integrated attendance system using face recognition to take attendance.
+# 🚀 Face Recognition Based Attendance System
 
-In this python project, I have made an attendance system which takes attendance by using face recognition technique. I have also intergrated it with GUI (Graphical user interface) so it can be easy to use by anyone. GUI for this project is also made on python using tkinter.
+## 🎯 Overview
+This project is an **AI-powered Face Recognition Based Attendance System** that automates attendance tracking using real-time face detection and recognition. It features an intuitive **Tkinter-based GUI** for seamless user interaction and employs **OpenCV** for accurate face detection. Attendance data is securely stored in **CSV files**, ensuring easy management and access.
 
-TECHNOLOGY USED:
-1) tkinter for whole GUI
-2) OpenCV for taking images and face recognition (cv2.face.LBPHFaceRecognizer_create())
-3) CSV, Numpy, Pandas, datetime etc. for other purposes.
+---
 
-FEATURES:
-1) Easy to use with interactive GUI support.
-2) Password protection for new person registration.
-3) Creates/Updates CSV file for details of students on registration.
-4) Creates a new CSV file everyday for attendance and marks attendance with proper date and time.
-5) Displays live attendance updates for the day on the main screen in tabular format with Id, name, date and time.
+## 🔥 Features
+✔️ **AI-Powered Face Recognition** – Uses Haarcascade for real-time face detection.  
+✔️ **Effortless User Registration** – Capture and store student images securely.  
+✔️ **Automated Attendance Marking** – Recognizes faces and logs attendance with timestamps.  
+✔️ **Interactive GUI** – User-friendly interface built with Tkinter.  
+✔️ **Secure Access** – Password protection for new user registration.  
+✔️ **Live Attendance Tracking** – Displays daily attendance in tabular format.  
+✔️ **Data Storage** – Attendance records are automatically saved in CSV format.
 
-### For more information:
-https://machinelearningprojects.net/face-recognition-based-attendance-system/
+---
 
-# SCREENSHOTS
-MAIN SCREEN:
-![Screenshot (9)](https://user-images.githubusercontent.com/37211676/58502148-97ec2a00-81a3-11e9-963e-674b9c3e05dc.png)
+## 🛠️ Technologies Used
+- **Programming Languages**: Python, OpenCV, Tkinter  
+- **Data Processing**: NumPy, Pandas, CSV  
+- **Machine Learning**: LBPH Face Recognizer (`cv2.face_LBPHFaceRecognizer_create()`)  
+- **UI/UX**: Tkinter-based graphical user interface  
 
-TAKING ATTENDANCE:
-![Screenshot (10)](https://user-images.githubusercontent.com/37211676/58502149-97ec2a00-81a3-11e9-9658-8968da396c2e.png)
+---
 
-SHOWING ATTENDANCE TAKEN:
-![Screenshot (11)](https://user-images.githubusercontent.com/37211676/58502151-9884c080-81a3-11e9-9a90-fec29940ee5a.png)
+## 📥 Installation
+### Prerequisites
+Ensure you have **Python 3.7+** installed and run the following command to install the dependencies:
 
-HELP OPTION IN MENUBAR:
-![Screenshot (12)](https://user-images.githubusercontent.com/37211676/58502152-991d5700-81a3-11e9-861a-9115526010c2.png)
+```sh
+pip install opencv-python numpy pandas pillow
+```
 
-CHANGE PASSWORD OPTION:
-![Screenshot (13)](https://user-images.githubusercontent.com/37211676/58502146-97539380-81a3-11e9-8536-0c68160ecc55.png)
+---
+
+## 📂 Project Structure
+```
+FaceRecognitionAttendance/
+│-- haarcascade_frontalface_default.xml  # Pre-trained Haarcascade model for face detection
+│-- main.py                              # Main Python script for GUI and face recognition
+│-- LICENSE                              # License file
+│-- StudentDetails/                      # Stores student details
+│-- TrainingImage/                       # Stores images of registered users
+│-- TrainingImageLabel/                  # Stores trained models
+│-- Attendance/                          # CSV records of attendance
+```
+
+---
+
+## 🚀 How to Use
+1️⃣ **Run the Application**
+```sh
+python main.py
+```
+
+2️⃣ **Register a Student**  
+- Enter **Student ID** and **Name**.  
+- Click **Take Images** to capture face data.  
+- Click **Save Profile** to store the trained model.
+
+3️⃣ **Recognize and Mark Attendance**  
+- Click **Track Images** to recognize faces and log attendance.  
+- Attendance is saved in `Attendance/Attendance_<date>.csv`.
+
+---
+
+## 🖼️ Screenshots
+### 🎯 Main Screen
+![Main Screen](https://user-images.githubusercontent.com/37211676/58502148-97ec2a00-81a3-11e9-963e-674b9c3e05dc.png)
+
+### ✅ Attendance Log
+![Attendance Record](https://user-images.githubusercontent.com/37211676/58502151-9884c080-81a3-11e9-9a90-fec29940ee5a.png)
+
+### 🔐 Password Protection
+![Change Password](https://user-images.githubusercontent.com/37211676/58502146-97539380-81a3-11e9-8536-0c68160ecc55.png)
+
+---
+
+## 🔮 Future Improvements
+🚀 **Upgrade to Database Storage** – Implement MySQL or SQLite instead of CSV.  
+🤖 **Enhance Face Recognition Accuracy** – Utilize deep learning models.  
+🌍 **Web-Based Interface** – Extend functionality with a browser-based UI.
+
+---
+
+## 👨‍💻 About the Developer
+This project was developed by **Kumar Aryan**, a passionate **Software Developer** with expertise in **Python, Java, Machine Learning, and Full-Stack Development**. He specializes in **OpenCV, AWS Cloud Computing, and UI/UX Design**.
+
+💡 **Explore More Projects**: [GitHub Profile](https://github.com/Arax007?tab=repositories)
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**. See the **LICENSE** file for details.
+
